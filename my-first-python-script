@@ -1,0 +1,130 @@
+#!/usr/bin/env python3
+
+#2
+#first_name = input("What is your first name? ")
+#last_name = input("What is your last name? ")
+#greeting = f"Hello {first_name} {last_name}!"
+#print(greeting)
+
+#3
+#num1 = int(input("Please enter the first integer: "))
+#num2 = int(input("Please enter the second integer: "))
+#product = f"The product is {num1*num2} ."
+#print(product)
+
+#4
+year = 2024
+month = 2
+day = 14
+formatted_date = f"The date is {year}-{month:02d}-{day:02d}"
+print(formatted_date)
+
+#5
+#new_num1 = float(input("Please enter the first integer: "))
+#new_num2 = float(input("Please enter the second integer: "))
+#division = f"The division result is {new_num1/new_num2:0.2f}"
+#print(division)
+
+#6
+
+#age = int(input("Please enter your age:"))
+#new_age = f"Your age after 20 years will be {age+20}."
+#print(new_age)
+
+#7
+
+product = float(input("Please enter the product price: "))
+moms = 0.2
+total = f"The product with tax is {product+(product*moms):0.2f} "
+print(total)
+
+
+#8
+
+#word = input("Please enter the word you want to repeat: ")
+#times = int(input("The number of times to repeat: "))
+#repeated_word = f"The word will be repeated {word*times}."
+#print(repeated_word)
+
+#9
+
+user_num1 = int(input("Please enter the first number: "))
+user_num2 = int(input("Please enter the second number: "))
+result = f"The sum is {user_num1+user_num2}, the product is {user_num1*user_num2}, the difference is {user_num1-user_num2}, the division is {user_num1/user_num2}"
+print(result)
+
+#10
+
+number = int(input("Enter a number: "))
+formatted_number = f"The number {number} in hexadecimal is {number:#x}"
+print(formatted_number)
+
+#11
+original_string = "frozen"
+reversed_string = f"{original_string[::-1]}"
+print(reversed_string)
+
+#12
+
+name = "Stoyan"
+age = "30"
+sentence = f"My name is {name} and I am {age} old."
+print(sentence)
+
+#13
+
+first_num = int(input("Enter a number"))
+second_num = int(input("Second number:" ))
+if first_num > second_num:
+	print(f"The 1st number {first_num} is bigger")
+else:
+	print(f"The 2nd number {second_num} is bigger")
+
+#14
+
+celsius = 25
+fahrenheit = celsius * 9 / 5 + 32
+temperature = f"The temperature is {celsius}°C or {fahrenheit:.1f}°F."
+print(temperature)
+
+#15
+
+trial_string = "Hello"
+str_len = f"The length of the string is  {len(trial_string)}"
+print(str_len)
+
+#16
+
+word = "hello"
+times = 5
+repeated_words = f"{' '.join(word for _ in range(times))}"
+print(repeated_words)
+
+#17
+
+line1 = "Hello,"
+line2 = "world!"
+line3 = "How are you?"
+multi_line_string = f"{line1}\n{line2}\n{line3}"
+print(multi_line_string)
+
+#18
+
+number = 3.14159
+formatted_pi = f"{number:.2f}"
+print(formatted_pi)  # Output: 3.14
+
+#19
+
+name = "Stoyan"
+age = 30
+proffession = "engineer"
+info = f"My name is {name} I am {age} old and I am an {proffession}."
+print(info)
+
+
+#20
+
+decimal = 0.1234
+percentage = f"{decimal:.2%}"
+print(percentage)
